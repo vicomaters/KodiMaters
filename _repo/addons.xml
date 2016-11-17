@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.icexaddon"
        name="[B][COLOR lime]Ice-x[/COLOR] [COLOR white]Movie[/COLOR] [COLOR red]Addon[/COLOR][/B]"
-       version="2.5"
+       version="2.5.0"
        provider-name="Vico Maters">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-    <addon id="repository.maters" name="Maters Repositrio" version="0.1.0" provider-name="Vico Maters">
+    <addon id="repository.maters" name="Maters Repository" version="0.0.1" provider-name="Vico Maters">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -41,8 +41,8 @@
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>addon movie tv HD</summary>
-            <description>El mejor addon con el mejor contenido..</description>
+            <summary>repository addons de Vico Maters</summary>
+            <description>Este contenido es esclusivo para Addons creados por mi..</description>
             <platform>all</platform>
     </extension>
 </addon>
